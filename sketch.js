@@ -13,7 +13,7 @@ function draw(){
          ellipse((i+1)*100,200,numbers[i],numbers[i]);
     }
   
-    fill(255);
+    fill(0,255,0);
     textSize(50);
     text(habits[j], 230, 150);
 }
